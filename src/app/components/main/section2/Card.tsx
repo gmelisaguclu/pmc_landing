@@ -5,9 +5,9 @@ import Chart3 from "../../Image/Chart3";
 
 const Card = () => {
   return (
-    <div className="flex justify-center items-stretch gap-9 mt-14 w-full h-fit">
+    <div className="flex justify-center items-stretch gap-14 mt-14 w-full h-fit">
       {/* Card 1 */}
-      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter p-6 shadow-lg max-w-sm border-2 rounded-3xl flex-grow">
+      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter p-10 shadow-lg max-w-sm border-2 rounded-3xl flex-grow py-14">
         <div className="mb-4">
           <Chart1 />
         </div>
@@ -22,7 +22,7 @@ const Card = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white  p-6 shadow-lg max-w-sm border-2 rounded-3xl flex-grow  ">
+      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white  p-10 shadow-lg max-w-sm border-2 rounded-3xl flex-grow  ">
         <div className="mb-4">
           <Chart2 />
         </div>
@@ -37,7 +37,7 @@ const Card = () => {
       </div>
 
       {/* Card 3 */}
-      <div className="flex flex-col items-center justify-center  backdrop-blur-lg backdrop-filter text-white  p-6 shadow-lg max-w-sm border-2 rounded-3xl flex-grow">
+      <div className="flex flex-col items-center justify-center  backdrop-blur-lg backdrop-filter text-white  p-10 shadow-lg max-w-sm border-2 rounded-3xl flex-grow">
         <div className="mb-4">
           <Chart3 />
         </div>

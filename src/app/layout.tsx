@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import { Inter } from "next/font/google";
+import Providers from "./Providers";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,16 +34,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Ana Layout */}
-        <div className="flex flex-col min-h-screen">
-          {/* Navbar tam genişlikte */}
-          <Navbar />
-          {/* Body ve Footer max genişlikte */}
-          <div className="flex-grow mx-auto w-full max-w-[1311px]">
-            <main className={`flex-grow ${inter.className}`}>{children}</main>
-            <Footer />
+        <Providers>
+          {/* Ana Layout */}
+          <div className="flex flex-col min-h-screen">
+            {/* Navbar tam genişlikte */}
+            <Navbar />
+            {/* Body ve Footer max genişlikte */}
+            <div className="flex-grow mx-auto w-full max-w-[1311px]">
+              <main className={`flex-grow ${inter.className}`}>{children}</main>
+              <Footer />
+            </div>
           </div>
-        </div>
+        </Providers>
       </body>
     </html>
   );
