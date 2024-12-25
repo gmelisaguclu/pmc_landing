@@ -1,11 +1,7 @@
 "use client";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { useState } from "react";
+import { Plus } from "lucide-react";
 
 const faqs = [
   {
@@ -42,28 +38,55 @@ const faqs = [
 ];
 
 export default function FAQAccordion() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
   return (
-    <div className="w-full max-w-3xl mx-auto p-6 bg-black text-white mt-40">
-      <h2 className="text-4xl font-bold mb-8 text-center">FAQ's</h2>
-      <Accordion type="single" collapsible className="w-full">
-        {faqs.map((faq) => (
-          <AccordionItem
-            key={faq.id}
-            value={faq.id}
-            className="border-b border-zinc-800 py-2"
-          >
-            <AccordionTrigger className="flex justify-between items-center py-4 hover:no-underline">
-              <div className="flex gap-4 items-center">
-                <span className="text-sm opacity-60">{faq.id}</span>
-                <span className="text-base font-normal">{faq.question}</span>
+    <div className="w-full mt-40 bg-black text-white py-16">
+      <div className="max-w-[1200px] mx-auto px-4">
+        <h1 className="text-5xl font-bold text-center mb-16">FAQ's</h1>
+
+        <div className="border border-zinc-800">
+          {faqs.map((faq, index) => (
+            <div key={faq.id} className="relative">
+              <button
+                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                className="w-full flex items-stretch text-left hover:bg-zinc-900/50 transition-colors border-b border-zinc-800 last:border-b-0"
+              >
+                {/* Number cell */}
+                <div className="w-16 py-6 px-3 border-r border-zinc-800 flex items-center justify-center">
+                  <span className="text-zinc-500 text-sm font-medium">
+                    {faq.id}
+                  </span>
+                </div>
+
+                {/* Question cell */}
+                <div className="flex-1 py-6 px-6 flex items-center">
+                  <span className="text-base">{faq.question}</span>
+                </div>
+
+                {/* Plus icon cell */}
+                <div className="w-16 py-6 px-3 flex items-center justify-center border-l border-zinc-800">
+                  <Plus
+                    className={`h-5 w-5 transition-transform duration-200 ${
+                      openIndex === index ? "rotate-45" : ""
+                    }`}
+                  />
+                </div>
+              </button>
+
+              <div
+                className={`overflow-hidden transition-all duration-200 ease-out ${
+                  openIndex === index ? "max-h-96" : "max-h-0"
+                }`}
+              >
+                <div className="py-4 px-6 text-zinc-400 border-b border-zinc-800 ml-16 text-sm">
+                  {faq.answer}
+                </div>
               </div>
-            </AccordionTrigger>
-            <AccordionContent className="pl-12 text-zinc-400">
-              {faq.answer}
-            </AccordionContent>
-          </AccordionItem>
-        ))}
-      </Accordion>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

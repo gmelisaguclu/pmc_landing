@@ -2,6 +2,8 @@ import React from "react";
 import Chart1 from "../../Image/Chart1";
 import Chart2 from "../../Image/Chart2";
 import Chart3 from "../../Image/Chart3";
+import Section2arrow from "../../Image/Section2arrow";
+import Section2rate from "../../Image/Section2rate";
 
 const Card = () => {
   return (
@@ -22,7 +24,12 @@ const Card = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white  p-10 shadow-lg max-w-sm border-2 rounded-3xl flex-grow  ">
+      <div className="relative flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white p-10 shadow-lg max-w-sm border-2 rounded-3xl flex-grow">
+        <div className="absolute top-3 left-3 pt-7 pl-11 flex items-center gap-3">
+          <Section2arrow />
+          <Section2rate />
+        </div>
+
         <div className="mb-4">
           <Chart2 />
         </div>

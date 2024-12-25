@@ -9,7 +9,7 @@ const Section = () => {
         <Text />
       </div>
 
-      <div className="flex items-center justify-center w-full border-2 rounded-2xl py-10 shadow-lg backdrop-blur-3xl my-10 backdrop-filter max-w-sm mx-auto">
+      <div className="flex items-center justify-center w-full border-2 rounded-2xl py-10 shadow-lg backdrop-blur-3xl my-10 backdrop-filter sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
         <Image />
       </div>
     </div>
