@@ -53,7 +53,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex items-start justify-start mt-32 gap-44 ">
+    <div className="flex items-start justify-start mt-16 gap-44 mr-10 ml-10 ">
       <div className="flex justify-center flex-col max-w-xl ">
         <div className=" flex items-end">
           <FooterLogo />

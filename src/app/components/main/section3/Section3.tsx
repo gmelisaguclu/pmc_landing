@@ -41,7 +41,7 @@ export default function FAQAccordion() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className="w-full mt-40 bg-black text-white py-16">
+    <div className=" mt-36 bg-black text-white py-16 mr-10 ml-10">
       <div className="max-w-[1200px] mx-auto px-4">
         <h1 className="text-5xl font-bold text-center mb-16">FAQ's</h1>
 
