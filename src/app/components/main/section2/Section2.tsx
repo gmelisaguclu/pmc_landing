@@ -5,10 +5,10 @@ const Section2 = () => {
   return (
     <div className="w-full">
       <div className="flex justify-between items-center max-md:flex-col max-md:gap-14">
-        <div className="md:font-bold font-medium text-3xl md:text-5xl mt-36	bg-gradient-to-r from-white to-[#FFFFFF33] bg-clip-text text-transparent leading-8  ml-16">
+        <div className="md:font-bold font-medium text-3xl md:text-5xl mt-36	bg-gradient-to-r from-white to-[#FFFFFF33] bg-clip-text text-transparent leading-8  ">
           What We Offer
         </div>
-        <div className="flex gap-12 mt-36 mr-10  ">
+        <div className="flex gap-12 mt-36  ">
           <div>
             <div className="flex font-bold text-3xl">
               <div>7.1M</div>

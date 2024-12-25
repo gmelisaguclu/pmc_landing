@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 
 function Section4() {
   return (
-    <div className="flex items-center justify-center  flex-col text-center mt-3 pt-20 pb-20 max-w-full border-4 mr-10 ml-10">
+    <div className="flex items-center justify-center  flex-col text-center mt-3 pt-20 pb-20 border-4 ">
       <div className="flex items-center justify-center  flex-col text-center max-w-[689px]  my-10">
         <div className="space-y-12">
           <h1 className="text-5xl font-normal leading-[55px] bg-gradient-to-r from-white to-[#FFFFFF33] bg-clip-text text-transparent tracking-wider ">

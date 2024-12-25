@@ -53,13 +53,13 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex items-start justify-start mt-16 gap-44 mr-10 ml-10 ">
+    <div className="flex items-start justify-between mt-16  w-full ">
       <div className="flex justify-center flex-col max-w-xl ">
         <div className=" flex items-end">
           <FooterLogo />
           <BetaImg />
         </div>
-        <p className="flex items-start mt-8 leading-[26.7px] text-[15px]">
+        <p className="flex items-start mt-8 leading-[26.7px] text-[15px] max-w-lg ">
           PreMarketCap is a trusted platform for investors seeking comprehensive
           market cap data and analytics. From real-time updates to deep industry
           insights, we empower you to make informed investment decisions. Join

@@ -7,7 +7,7 @@ import Section2rate from "../../Image/Section2rate";
 
 const Card = () => {
   return (
-    <div className="flex justify-center items-stretch gap-12 mt-14 w-full h-fit mr-10 ">
+    <div className="flex justify-between items-stretch  mt-14 w-full h-fit  ">
       {/* Card 1 */}
       <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter p-10 shadow-lg max-w-sm border-2 rounded-3xl flex-grow py-14">
         <div className="mb-4">
