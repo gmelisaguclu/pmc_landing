@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* Logo - Ortalanır */}
       <div className="flex flex-col items-center justify-center relative w-full">
         <HeaderLogo />
-        <div className="absolute mt-10">
+        <div className="-mt-3 w-full">
           <HeaderLogoBorder />
         </div>
       </div>

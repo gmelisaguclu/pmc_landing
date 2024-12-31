@@ -30,7 +30,7 @@ const Footer = () => {
       id: 0,
       title: "info@premarketcap.com",
       category: "Contact Info",
-      link: "/",
+      link: "mailto:info@premarketcap.com",
     },
     {
       id: 1,
@@ -53,40 +53,50 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex items-start justify-between mt-16  w-full ">
-      <div className="flex justify-center flex-col max-w-xl ">
-        <div className=" flex items-end">
+    <div className="flex flex-col lg:flex-row items-start justify-between mt-16 w-full">
+      {/* Sol Kısım (Logo ve Açıklama) */}
+      <div className="flex justify-center flex-col max-w-xl">
+        {/* Logo ve Beta etiketi */}
+        <div className="flex items-end">
           <FooterLogo />
           <BetaImg />
         </div>
-        <p className="flex items-start mt-8 leading-[26.7px] text-[15px] max-w-lg ">
+
+        {/* Açıklama */}
+        <p className="flex items-start mt-8 leading-[26.7px] text-[15px] max-w-lg">
           PreMarketCap is a trusted platform for investors seeking comprehensive
           market cap data and analytics. From real-time updates to deep industry
           insights, we empower you to make informed investment decisions. Join
           us!
         </p>
-        <div className="flex items-center gap-7 mt-12 mb-10">
-          <div>
-            <FacebookImg />
-          </div>
-          <div>
-            <TwitterImg />
-          </div>
-          <div>
-            <InstaImg />
-          </div>
+
+        {/* İkonlar ve info maili aynı satırda */}
+        <div className="flex items-center gap-5 mt-12 mb-10">
+          <FacebookImg />
+          <TwitterImg />
+          <InstaImg />
+          {/* info@premarketcap.com ikonu sağında dursun */}
+          <Link
+            href="mailto:info@premarketcap.com"
+            className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white"
+          >
+            info@premarketcap.com
+          </Link>
         </div>
       </div>
-      <div className="flex justify-center items-start gap-28 ">
+
+      {/* Sağ Kısım (Dapp, Links ve Contact Info) 
+          Yalnızca LG ve üzeri ekranlarda görünür (mobilde gizlenir) */}
+      <div className="hidden lg:flex justify-center items-start gap-28">
         {/* Dapp Section */}
         <div>
           <div className="font-bold text-[23px] leading-[45px] mb-4">Dapp</div>
-          <ul className="space-y-2 ">
+          <ul className="space-y-2">
             {dapp.map((item) => (
               <li key={item.id}>
                 <Link
                   href={item.link}
-                  className="text-[13.35px] leading-[21px] text-[#2ED3C8]  hover:text-white"
+                  className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white"
                 >
                   {item.title}
                 </Link>
@@ -128,7 +138,7 @@ const Footer = () => {
                     {item.title}
                   </Link>
                 ) : (
-                  <span className="text-[13.35px] leading-[21px]  text-[#2ED3C8]">
+                  <span className="text-[13.35px] leading-[21px] text-[#2ED3C8]">
                     {item.title}
                   </span>
                 )}
