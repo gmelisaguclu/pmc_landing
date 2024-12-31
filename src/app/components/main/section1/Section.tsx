@@ -1,6 +1,7 @@
 import React from "react";
 import Text from "./Text";
 import Image from "./Image";
+import HomeIkon from "../../Image/HomeIcon";
 
 const Section = () => {
   return (
@@ -9,8 +10,11 @@ const Section = () => {
         <Text />
       </div>
 
-      <div className="flex items-center justify-center w-full border-2 rounded-2xl py-10 shadow-lg backdrop-blur-3xl my-10 backdrop-filter sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
+      <div className="max-md:mt-28 w-full  flex items-center justify-center">
         <Image />
+      </div>
+      <div className="flex items-center justify-end mt-2 max-md:justify-center max-md:mt-5">
+        <HomeIkon />
       </div>
     </div>
   );
