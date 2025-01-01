@@ -41,11 +41,11 @@ export default function FAQAccordion() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className=" mt-36 bg-black text-white py-16 ">
+    <div className="mt-36 bg-black text-white py-16">
       <div className="max-w-[1200px] mx-auto px-4">
         <h1 className="text-5xl font-bold text-center mb-16">FAQ's</h1>
 
-        <div className="border border-zinc-800">
+        <div className="border-y border-zinc-800 md:border">
           {faqs.map((faq, index) => (
             <div key={faq.id} className="relative">
               <button
@@ -60,12 +60,12 @@ export default function FAQAccordion() {
                 </div>
 
                 {/* Question cell */}
-                <div className="flex-1 py-6 px-6 flex items-center">
-                  <span className="text-base">{faq.question}</span>
+                <div className="flex-1 py-6 px-6 flex items-center ">
+                  <span className="text-base ">{faq.question}</span>
                 </div>
 
                 {/* Plus icon cell */}
-                <div className="w-16 py-6 px-3 flex items-center justify-center border-l border-zinc-800">
+                <div className="w-16 py-6 px-3 flex items-center justify-center border-l border-zinc-800 max-md:hidden">
                   <Plus
                     className={`h-5 w-5 transition-transform duration-200 ${
                       openIndex === index ? "rotate-45" : ""

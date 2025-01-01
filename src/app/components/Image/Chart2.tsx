@@ -4,8 +4,7 @@ export default function Chart2() {
   return (
     <div>
       <svg
-        width="267"
-        height="108"
+        className="w-full h-auto max-w-[239px] max-h-[97px]"
         viewBox="0 0 267 108"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

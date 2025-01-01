@@ -9,7 +9,7 @@ const Card = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-14 w-full">
       {/* Card 1 */}
-      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter p-10 shadow-lg max-w-sm border-2 rounded-3xl mx-auto w-full">
+      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter p-10 shadow-lg w-full max-w-[380px] h-[440px] border-2 rounded-3xl mx-auto">
         <div className="mb-4">
           <Chart1 />
         </div>
@@ -24,7 +24,7 @@ const Card = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="relative flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white p-10 shadow-lg max-w-sm border-2 rounded-3xl mx-auto w-full">
+      <div className="relative flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white p-10 shadow-lg w-full max-w-[380px] h-[440px] border-2 rounded-3xl mx-auto">
         <div className="absolute top-3 left-3 pt-7 pl-11 flex items-center gap-3">
           <Section2arrow />
           <Section2rate />
@@ -44,7 +44,7 @@ const Card = () => {
       </div>
 
       {/* Card 3 */}
-      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white p-10 shadow-lg max-w-sm border-2 rounded-3xl mx-auto w-full">
+      <div className="flex flex-col items-center justify-center backdrop-blur-lg backdrop-filter text-white p-10 shadow-lg w-full max-w-[380px] h-[440px] border-2 rounded-3xl mx-auto">
         <div className="mb-4">
           <Chart3 />
         </div>

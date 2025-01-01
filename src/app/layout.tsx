@@ -41,7 +41,9 @@ export default function RootLayout({
             <Navbar />
             {/* Body ve Footer max genişlikte */}
             <div className="flex-grow mx-auto w-full max-w-[1311px]">
-              <main className={`flex-grow ${inter.className}`}>{children}</main>
+              <main className={`flex-grow px-4 ${inter.className}`}>
+                {children}
+              </main>
               <Footer />
             </div>
           </div>
