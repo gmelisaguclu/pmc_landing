@@ -53,17 +53,17 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-between mt-16 w-full">
+    <div className="flex flex-col lg:flex-row items-center justify-center lg:items-start lg:justify-between mt-16 w-full px-4">
       {/* Sol Kısım (Logo ve Açıklama) */}
-      <div className="flex justify-center flex-col max-w-xl">
+      <div className="flex justify-center flex-col max-w-xl  lg:text-left">
         {/* Logo ve Beta etiketi */}
-        <div className="flex items-end">
+        <div className="flex items-center justify-center lg:justify-start">
           <FooterLogo />
           <BetaImg />
         </div>
 
         {/* Açıklama */}
-        <p className="flex items-start mt-8 leading-[26.7px] text-[15px] max-w-lg">
+        <p className="mt-8 max-md:mt-4 leading-[26.7px] max-md:leading-[19px] text-[15px] max-w-lg">
           PreMarketCap is a trusted platform for investors seeking comprehensive
           market cap data and analytics. From real-time updates to deep industry
           insights, we empower you to make informed investment decisions. Join
@@ -71,22 +71,20 @@ const Footer = () => {
         </p>
 
         {/* İkonlar ve info maili aynı satırda */}
-        <div className="flex items-center gap-5 mt-12 mb-10">
+        <div className="flex items-center lg:justify-start gap-5 mt-12 mb-10">
           <FacebookImg />
           <TwitterImg />
           <InstaImg />
-          {/* info@premarketcap.com ikonu sağında dursun */}
           <Link
             href="mailto:info@premarketcap.com"
-            className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white"
+            className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white md:hidden"
           >
             info@premarketcap.com
           </Link>
         </div>
       </div>
 
-      {/* Sağ Kısım (Dapp, Links ve Contact Info) 
-          Yalnızca LG ve üzeri ekranlarda görünür (mobilde gizlenir) */}
+      {/* Sağ Kısım (Dapp, Links ve Contact Info) */}
       <div className="hidden lg:flex justify-center items-start gap-28">
         {/* Dapp Section */}
         <div>
