@@ -2,10 +2,9 @@ import React from "react";
 
 const FooterLogo = () => {
   return (
-    <div>
+    <div className="w-full">
       <svg
-        width="250"
-        height="38"
+        className=" max-w-[250px] max-md:max-w-[170px]"
         viewBox="0 0 250 38"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

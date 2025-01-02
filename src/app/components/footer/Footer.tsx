@@ -53,31 +53,32 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center lg:items-start lg:justify-between mt-16 w-full px-4">
+    <div className="flex flex-col lg:flex-row items-center justify-center lg:items-start lg:justify-between mb-14 mt-20 max-md:mt-10 max-md:mb-2 w-full">
       {/* Sol Kısım (Logo ve Açıklama) */}
-      <div className="flex justify-center flex-col max-w-xl  lg:text-left">
+      <div className="flex justify-center flex-col w-full  text-left">
         {/* Logo ve Beta etiketi */}
-        <div className="flex items-center justify-center lg:justify-start">
+        <div className="flex max-w-md items-end mb-4 justify-center">
           <FooterLogo />
           <BetaImg />
         </div>
 
         {/* Açıklama */}
-        <p className="mt-8 max-md:mt-4 leading-[26.7px] max-md:leading-[19px] text-[15px] max-w-lg">
+        <p className=" max-md:mt-4 leading-[26.7px] max-md:leading-[19px] text-[15px] max-w-lg max-md:text-[]">
           PreMarketCap is a trusted platform for investors seeking comprehensive
           market cap data and analytics. From real-time updates to deep industry
           insights, we empower you to make informed investment decisions. Join
           us!
         </p>
 
-        {/* İkonlar ve info maili aynı satırda */}
-        <div className="flex items-center lg:justify-start gap-5 mt-12 mb-10">
-          <FacebookImg />
-          <TwitterImg />
-          <InstaImg />
+        <div className="flex items-center  mt-12 mb-10 justify-between max-w-lg">
+          <div className=" flex items-center gap-5">
+            <FacebookImg />
+            <TwitterImg />
+            <InstaImg />
+          </div>
           <Link
             href="mailto:info@premarketcap.com"
-            className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white md:hidden"
+            className="text-[13.35px] leading-[21px]  text-[#2ED3C8]  lg:hidden"
           >
             info@premarketcap.com
           </Link>
@@ -94,7 +95,7 @@ const Footer = () => {
               <li key={item.id}>
                 <Link
                   href={item.link}
-                  className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white"
+                  className="text-[13.35px] leading-[21px] text-[#2ED3C8] "
                 >
                   {item.title}
                 </Link>
@@ -111,7 +112,7 @@ const Footer = () => {
               <li key={item.id}>
                 <Link
                   href={item.link}
-                  className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white"
+                  className="text-[13.35px] leading-[21px] text-[#2ED3C8] "
                 >
                   {item.title}
                 </Link>
@@ -131,7 +132,7 @@ const Footer = () => {
                 {item.link ? (
                   <Link
                     href={item.link}
-                    className="text-[13.35px] leading-[21px] text-[#2ED3C8] hover:text-white"
+                    className="text-[13.35px] leading-[21px] text-[#2ED3C8] "
                   >
                     {item.title}
                   </Link>
