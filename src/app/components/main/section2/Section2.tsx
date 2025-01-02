@@ -4,11 +4,11 @@ import Card from "./Card";
 const Section2 = () => {
   return (
     <div className="w-full">
-      <div className="flex justify-between items-center max-md:flex-col max-md:gap-14">
-        <div className="font-bold  text-5xl max-md:text-3xl max-md:mt-44 max-md:font-medium max-md:tracking-wider mt-36	bg-gradient-to-r from-white to-[#FFFFFF33] bg-clip-text text-transparent leading-8  ">
+      <div className="flex justify-between items-center max-md:flex-col mt-32 mb max-md:gap-14">
+        <div className="font-bold pl-12 text-5xl max-md:text-3xl max-md:mt-44 max-md:font-medium max-md:tracking-wider 	bg-gradient-to-r from-white to-[#FFFFFF33] bg-clip-text text-transparent leading-8  ">
           WHAT WE OFFER
         </div>
-        <div className="flex items-center justify-between max-md:w-full md:gap-12 mt-36 max-md:mt-6 ">
+        <div className="flex items-center justify-between pr-10 max-md:w-full md:gap-12  max-md:mt-6 ">
           <div>
             <div className="flex font-bold text-3xl  ">
               <div>7.1M</div>
