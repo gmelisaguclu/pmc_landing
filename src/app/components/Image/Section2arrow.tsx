@@ -22,7 +22,7 @@ const Section2arrow = () => {
           height="24.9167"
           rx="12.4583"
           stroke="#236456"
-          stroke-width="1.08333"
+          strokeWidth="1.08333"
         />
       </svg>
     </div>

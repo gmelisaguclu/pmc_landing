@@ -10,7 +10,7 @@ const HomeIcon = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_32_156897)">
+        <g clipPath="url(#clip0_32_156897)">
           <path
             d="M121.019 18.4909L125.903 13.6062L123.731 11.4335L116.658 18.4909L123.731 25.5637L125.903 23.3756L121.019 18.4909ZM140.033 18.4909L135.149 23.3756L137.321 25.5483L144.394 18.4909L137.321 11.4181L135.149 13.6062L140.033 18.4909Z"
             fill="url(#paint0_linear_32_156897)"
@@ -23,8 +23,8 @@ const HomeIcon = () => {
           x2="95.7184"
           y2="17.4033"
           stroke="white"
-          stroke-width="2.17542"
-          stroke-linecap="round"
+          strokeWidth="2.17542"
+          strokeLinecap="round"
         />
         <line
           x1="2.17542"
@@ -32,8 +32,8 @@ const HomeIcon = () => {
           x2="22.8419"
           y2="17.4054"
           stroke="url(#paint1_linear_32_156897)"
-          stroke-width="4.35084"
-          stroke-linecap="round"
+          strokeWidth="4.35084"
+          strokeLinecap="round"
         />
         <defs>
           <linearGradient
@@ -44,8 +44,8 @@ const HomeIcon = () => {
             y2="25.5637"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#28A79B" />
-            <stop offset="1" stop-color="white" />
+            <stop stopColor="#28A79B" />
+            <stop offset="1" stopColor="white" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_32_156897"
@@ -55,8 +55,8 @@ const HomeIcon = () => {
             y2="18.0808"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#28A79B" />
-            <stop offset="1" stop-color="#F0F0F0" />
+            <stop stopColor="#28A79B" />
+            <stop offset="1" stopColor="#F0F0F0" />
           </linearGradient>
           <clipPath id="clip0_32_156897">
             <rect

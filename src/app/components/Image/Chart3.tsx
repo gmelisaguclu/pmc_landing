@@ -24,7 +24,7 @@ export default function Chart3() {
             cy="23.7869"
             r="5.60909"
             stroke="black"
-            stroke-width="1.6026"
+            strokeWidth="1.6026"
           />
         </g>
         <rect
@@ -42,7 +42,7 @@ export default function Chart3() {
             cy="40.6802"
             r="5.60909"
             stroke="black"
-            stroke-width="1.6026"
+            strokeWidth="1.6026"
           />
         </g>
         <rect
@@ -60,7 +60,7 @@ export default function Chart3() {
             cy="62.8533"
             r="5.60909"
             stroke="black"
-            stroke-width="1.6026"
+            strokeWidth="1.6026"
           />
         </g>
         <rect
@@ -78,7 +78,7 @@ export default function Chart3() {
             cy="82.9128"
             r="5.60909"
             stroke="black"
-            stroke-width="1.6026"
+            strokeWidth="1.6026"
           />
         </g>
         <rect
@@ -96,7 +96,7 @@ export default function Chart3() {
             cy="40.6802"
             r="5.60909"
             stroke="black"
-            stroke-width="1.6026"
+            strokeWidth="1.6026"
           />
         </g>
         <rect
@@ -114,7 +114,7 @@ export default function Chart3() {
             cy="24.6145"
             r="5.60909"
             stroke="black"
-            stroke-width="1.6026"
+            strokeWidth="1.6026"
           />
         </g>
         <rect
@@ -132,7 +132,7 @@ export default function Chart3() {
             cy="7.41064"
             r="5.60909"
             stroke="black"
-            stroke-width="1.6026"
+            strokeWidth="1.6026"
           />
         </g>
         <defs>
@@ -143,9 +143,9 @@ export default function Chart3() {
             width="25.6416"
             height="25.6416"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -178,9 +178,9 @@ export default function Chart3() {
             width="25.6416"
             height="25.6416"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -213,9 +213,9 @@ export default function Chart3() {
             width="25.6416"
             height="25.6416"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -248,9 +248,9 @@ export default function Chart3() {
             width="25.6416"
             height="25.6416"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -283,9 +283,9 @@ export default function Chart3() {
             width="25.6416"
             height="25.6416"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -318,9 +318,9 @@ export default function Chart3() {
             width="25.6416"
             height="25.6416"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -353,9 +353,9 @@ export default function Chart3() {
             width="25.6416"
             height="25.6416"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"

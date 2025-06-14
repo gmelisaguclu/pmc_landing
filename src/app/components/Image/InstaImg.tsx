@@ -31,8 +31,8 @@ const InstaImg = () => {
             y2="13.6667"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#2ED3C8" />
-            <stop offset="1" stop-color="#2ED3C8" />
+            <stop stopColor="#2ED3C8" />
+            <stop offset="1" stopColor="#2ED3C8" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_32_156771"
@@ -42,8 +42,8 @@ const InstaImg = () => {
             y2="17.7691"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#2ED3C8" />
-            <stop offset="1" stop-color="#2ED3C8" />
+            <stop stopColor="#2ED3C8" />
+            <stop offset="1" stopColor="#2ED3C8" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_32_156771"
@@ -53,8 +53,8 @@ const InstaImg = () => {
             y2="22.8647"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#2ED3C8" />
-            <stop offset="1" stop-color="#2ED3C8" />
+            <stop stopColor="#2ED3C8" />
+            <stop offset="1" stopColor="#2ED3C8" />
           </linearGradient>
         </defs>
       </svg>
